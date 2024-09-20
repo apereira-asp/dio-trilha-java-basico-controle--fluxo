@@ -28,7 +28,7 @@ public class Contador {
 
     static void contar(int parametroUm, int parametroDois) throws ParametrosInvalidosException {
         // Validação: Se o primeiro parâmetro for maior que o segundo
-        if (parametroUm >= parametroDois) {
+        if (parametroUm <= parametroDois) {
             throw new ParametrosInvalidosException("O segundo parâmetro deve ser maior que o primeiro.");
         }
 
